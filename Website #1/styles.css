@@ -1,0 +1,137 @@
+
+
+body {
+
+    background-color: azure;
+}
+
+header {
+
+    text-align: center;
+    background-color: azure;
+    padding: 20px;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+
+
+.navbar a {
+
+    display: inline-block;
+    color: #130101;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.navbar a:hover {
+
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+
+.p_1 {
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+.p_2 {
+
+    float: left;
+
+}
+
+
+h2 {
+
+    text-align: center;
+    width: 100%;
+    font-size: xx-large;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+
+}
+
+a, h1 {
+    text-align: center;
+
+}
+
+img {
+
+    align-self: center;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+table, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+td {
+	height: 30px;
+
+}
+
+th {
+  	background-color: seashell;
+	color:black;
+	text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 20%;
+    padding-left: 540px;
+    
+  
+}
+
+.image {
+    float: left;
+    width: 30%;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.font2 {
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.font3 {
+    font-family: 'Lucidi"Lucida Console", Monaco, monospace';
+    font-size: 35pt;
+    color: rgb(0, 58, 134);
+}
+
+ul {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
